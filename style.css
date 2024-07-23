@@ -1,0 +1,85 @@
+*{
+  margin:0px;
+  padding: 0px;
+}
+
+/* STYLE SECTIONING TAGS */
+body {
+ background-color: #dacdbe; 
+  
+}
+main{
+  text-align:center;
+  margin-top:0;
+  margin-bottom:0;
+  margin-right:20%;
+  margin-left:20%;
+}
+/* STYLE TEXT */
+
+header{
+  background-color: #ff9ece;
+  border: 1px solid #e8b730;
+  text-align:center;
+}
+h1 {
+  color: #e52424;
+  padding-top: 0.5cm;
+  padding-bottom:0.5cm;
+}
+
+p{
+  color: #e52424;
+  font-family: "Georgia", serif typeface;
+  text-align: left;
+  margin-bottom: 1cm;
+}
+/* STYLE IMAGES */
+img{
+  /*max-width:50;
+  margin-right:10px; */
+  /*float: left;*/
+  border: 3px solid white;
+  /*border-radius: 90%; /*makes it circle or rounded*/
+  /*padding-bottom:0.5cm;*/
+}
+/* STYLE NAV BAR */
+nav{
+  text-align: center;
+  font-size: 30px;
+  background-color: white;
+}
+.bunny {
+  float: left; /* Aligns the image to the left */
+  margin: 0 10px 10px 0; /* Space between the image and text */
+  border-radius: 10%; 
+  border: 3px solid white; /* Adds a border around the image */
+  padding-bottom: 0.5cm; /* Padding below the image */
+}
+nav ul li {
+  display: inline; /* Display list items inline */
+  margin-right: 10px; /* Space between list items */
+}
+
+nav ul li a {
+  color: #cb1074; /* Text color */
+  text-decoration: none; /* Remove underline */
+}
+.image-text-container {
+  overflow: hidden; /* Clear floats */
+  margin-bottom: 1cm; /* Space below the container */
+}
+
+.image-text-container p {
+  color: #e52424;
+  font-family: "Georgia", serif;
+  text-align: left;
+  margin: 0; /* Remove default margin */
+}
+li a:hover{
+  background-color:  #e2f292;
+}
+
+.imagefixxx{
+  max-width: 70%;
+}
